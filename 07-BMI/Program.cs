@@ -14,8 +14,8 @@ namespace _07_BMI
             //18.5 niedowaga
             //<25 -ok
             //30 nadwaga
-            //>= 30 otylosc
-
+            //>= 30 Otyłość
+            
             Console.Write("Podaj wagę w kg: ");
             int waga = Convert.ToInt32(Console.ReadLine());
 
@@ -31,12 +31,12 @@ namespace _07_BMI
             }
             else if (bmi < 25)
             {
-                Console.WriteLine("OK");
+                Console.WriteLine("ok");
             }
             else if (bmi < 30)
                 Console.WriteLine("Nadwaga");
             else
-                Console.WriteLine("Otylosc");
+                Console.WriteLine("Otyłość");
 
             Console.ReadKey();
         }
