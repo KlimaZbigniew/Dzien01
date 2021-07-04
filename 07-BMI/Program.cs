@@ -22,6 +22,7 @@ namespace _07_BMI
             Console.Write("Podaj wzrost w cm: ");
             byte wzrost = Convert.ToByte(Console.ReadLine());
 
+            //Aplikowanie fromuły
             double bmi = waga / Math.Pow(wzrost / 100.0, 2);
             Console.WriteLine("BMI = " + bmi);
 
