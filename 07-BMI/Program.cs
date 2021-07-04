@@ -8,6 +8,7 @@ namespace _07_BMI
 {
     class Program
     {
+        //zmiana wprowadzona z zewnątrz ZK :)
         static void Main(string[] args)
         {
             //BMI = waga / wzrost^2 (w cm)
